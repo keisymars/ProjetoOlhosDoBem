@@ -21,6 +21,15 @@
         width: 10%;
     }
 
+    .herobanner
+{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 3rem;
+}
+
+
 
 }
 
@@ -43,6 +52,15 @@
     {
         width: 10%;
     }
+
+    .herobanner
+{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 3rem;
+}
+
 }   
 
 /* TVS, TELAS ENORMES */
@@ -52,6 +70,14 @@
     {
         background-color: blueviolet;
     }
+
+    .header {
+        background-color: #b1fcc8;
+        padding: 30px;
+        text-align: center;
+        height: 100vh;
+      }
+      
 
     .header .banner
     {
@@ -63,4 +89,13 @@
     {
         width: 10%;
     }
+
+    .herobanner
+{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 3rem;
+}
+
 }
