@@ -36,8 +36,86 @@ section
 
 .beneficios
 {
-    
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
+
+.cardbottom {
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 3vh;
+  width: 35vh;
+  height: 27vh;
+  border-radius: 5vh;
+  background: #ffffff;
+  color: #105566;
+  box-shadow: 3px 3px 10px #bebebe,
+                -3px -3px 10px #e0f5dd;
+               
+              
+ }
+
+ .pq
+ {
+  margin-top: 3%;
+  color: #105566;
+  font-size: 2.5rem;
+  font-weight: 900;
+ 
+ }
+
+ .s1
+ {
+  background-color: #6ee3203f;
+ }
+ .s2
+ {
+  background-color: #6b20e33f;
+ }
+ .s3
+ {
+  background-color: #e320a83f;
+ }
+ .s4
+ {
+  background-color: #16ddab3f;
+ }
+
+ .cartoes
+ {
+    margin-top: 1%;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-justify:inter-word;
+    gap: 2rem;
+    
+ }
+
+
+
+.page3
+{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
 
 
 .cidadesatendidas
@@ -48,6 +126,7 @@ section
     flex-direction: column;
     flex-wrap: nowrap;
     width: 100%;
+    
 }
 
 
@@ -56,7 +135,6 @@ section
     display: flex;
     position: relative;
     width: 100%;
-    height: 46vh;
     background-color: var(--color-cidades);
     align-items: center;
     justify-content: center;
@@ -85,12 +163,13 @@ section
 
   #cotia
   {
-    background-color: rgb(80, 185, 255);
+    background-color: rgb(44, 170, 255);
+  
   }
  
 
   .content {
-    padding: 18px;
+    padding: 10px;
   }
   
   .content .price {
@@ -108,7 +187,7 @@ section
   }
   
   .content .title {
-    font-weight: 800;
+    font-weight: 600;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.64);
     margin-top: 5px;
@@ -129,12 +208,15 @@ section
     padding: 0.75rem 1.5rem;
     background-color: rgb(153, 152, 152);
     border-radius: 0.5rem;
-    width: 8rem;
+    width: 10rem;
     text-shadow: 0px 4px 18px #2c3442;
     cursor: pointer;
   }
 
 .depoimentos
 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
     
 }
