@@ -42,11 +42,8 @@
 
 .logomenu
 {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 0.4rem;
-    background-color: #9dffba;
+    padding: 0.2rem;
+    
 }
 
 
@@ -73,6 +70,11 @@ body
   #navbar {
     overflow: hidden;
     background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
 .menuitems
@@ -89,7 +91,8 @@ body
     text-align: center;
     padding: 12px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 0.9rem;
+    font-weight: 600;
     
   }
   
