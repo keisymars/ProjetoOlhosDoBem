@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+
+/* TABLETS */
+@media only screen and (min-width:600px)
+{
+
+    body
+    {
+        background-color: red;
+
+    }
+    .header .banner
+    {
+       width: 60%;
+    
+    }
+
+    .mobilelogo
+    {
+        width: 10%;
+    }
+
+
+}
+
+/* COMPUTADORES */
+@media only screen and (min-width: 992px)
+{
+    body
+    {
+        background-color: aqua;
+    }
+
+
+    .header .banner
+    {
+       width: 55%;
+    
+    }
+
+    .mobilelogo
+    {
+        width: 10%;
+    }
+}   
+
+/* TVS, TELAS ENORMES */
+@media only screen and (min-width: 1200px)
+{
+    body
+    {
+        background-color: blueviolet;
+    }
+
+    .header .banner
+    {
+       width: 40%;
+    
+    }
+
+    .mobilelogo
+    {
+        width: 10%;
+    }
+}
