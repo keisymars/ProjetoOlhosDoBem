@@ -1,5 +1,10 @@
 ---
 deployment:
-  tasks:
-       - export DEPLOYPATH=/home/cmosp/olhosdobem.com.br/ProjetoOlhosDoBem
-       - /bin/cp -R * $DEPLOYPATH
+ tasks:
+ - export DEPLOYPATH=/home/cmosp/olhosdobem.com.br/ProjetoOlhosDoBem
+ - /bin/cp -R * $DEPLOYPATH
+ - /bin/cp index.html $DEPLOYPATH
+ - /bin/cp content.css $DEPLOYPATH
+ - /bin/cp mediaquery.css $DEPLOYPATH
+ - /bin/cp style.css $DEPLOYPATH
+ - /bin/cp navbar.js $DEPLOYPATH
