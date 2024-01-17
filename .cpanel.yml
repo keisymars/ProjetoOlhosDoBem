@@ -1,1 +1,5 @@
-
+---
+deployment:
+  tasks:
+       - export DEPLOYPATH=/home/cmosp/olhosdobem.com.br/ProjetoOlhosDoBem
+       - /bin/cp -R * $DEPLOYPATH
