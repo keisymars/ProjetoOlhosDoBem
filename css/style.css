@@ -146,6 +146,11 @@ body
     
 }
 
+.footerlogo p
+{
+    font-size: 0.8rem;
+}
+
 .fim
 {
     display: flex;
@@ -169,8 +174,8 @@ body
     align-items: center;
     justify-content: center;
     
-    gap: 1.5rem;
-    margin-top: 1.5rem;
+    gap: 2rem;
+    padding: 1rem;
     
 
 }
