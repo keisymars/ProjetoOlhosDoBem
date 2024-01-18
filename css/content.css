@@ -127,8 +127,15 @@ section
   height: fit-content;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 
+}
+
+.cidadessaopaulo
+{
+  text-align: justify;
+  padding: 1rem;
 }
 
 
@@ -147,6 +154,7 @@ section
 
 .titlecidades
 {
+  margin-top: 2rem ;
   color: #105566;
   font-size: 1.8rem;
   font-weight: 900;
@@ -223,3 +231,6 @@ section
     cursor: pointer;
   }
 
+
+
+  
